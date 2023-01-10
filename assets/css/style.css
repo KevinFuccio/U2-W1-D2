@@ -89,13 +89,15 @@ main {
   float: left;
 }
 .linea{
+  position: relative;
+  width: 240px;
   display: inline-block;
-  width: 238px;
-  bottom: 18px;
 }
 .linea img{
-  width: 100%;
-  margin-bottom: 13px;
+  width: 240px;
+  position: absolute;
+  right: 6px;
+  top: 34px;
 }
 section {
   background-color: #e3e3e3;
