@@ -298,6 +298,7 @@ footer a {
     text-align: left;
     position: sticky;
     top: 0px;
+    z-index: 1;
   }
   header div img {
     width: 150px;
@@ -323,6 +324,7 @@ footer a {
     display: inline-block;
     right: 0;
     top: 20px;
+    z-index: 2;
   }
   .sideButtons {
     display: block;
